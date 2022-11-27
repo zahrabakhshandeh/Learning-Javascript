@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+شnuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <title>filter products</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container header">
+          <h1>Product Filter</h1>
+          <!-- search box -->
+          <div class="search-box">
+              <form action="" onsubmit="return false">
+                  <input type="text" id="search" placeholder="Search Product">
+              </form>
+          </div>
+           <!-- search box -->
+           <!-- filter box -->
+          <div class="filter-box">
+            <select name="filter-products" class="filter-products">
+              <option value="">All</option>
+              <option value="cellphone">Cellphone</option>
+              <option value="laptop">Laptop</option>
+              <option value="headphone">Headphone</option>
+            </select>
+          </div>
+          <!-- filter box -->
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- products -->
+    <section class="products">
+      <div class="products-center">
+        <!-- single product -->
+       <!-- 
+       <div class="product">
+          <div class="img-container">
+            <img src="./assets/images/product-1.jpeg" class="product-img" />
+          </div>
+          <div class="product-desc">
+            <p class="product-price">$ 11.99</p>
+            <p class="product-title">carpet</p>
+          </div>
+        </div>  -->
+      </div>
+    </section>
+    <!-- products -->
+
+    <!-- modal -->
+    <section class="modal-container">
+      <div class="modal">
+      <div style="float: right;">
+         <button class="cancel-btn"> X </button>
+      </div>
+      <h1 class="modal-title">Title</h1>
+      <img src="" class="modal-img" />
+      <button class="add-cart">Add to cart</button>
+      </div>
+    </section>
+    <!-- modal -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

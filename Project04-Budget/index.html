@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/fbadad80a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Budget</title>
+  </head>
+  <body>
+  <div class="header">
+        <h1>Budget</h1>
+      </div>
+    
+
+      <!-- Dashboard -->
+      <div class="budget-dashboard">
+        <!-- Incomes -->
+        <div class="income">
+          <h3 class="tab2">Incomes</h3>
+          <div id="incomes">
+            <ul class="list"></ul>
+            <div class="input">
+              <div>
+                <input
+                  type="text"
+                  id="income-title-input"
+                  name="title"
+                  placeholder="Title"
+                />
+                <input
+                  type="number"
+                  id="income-amount-input"
+                  name="amount"
+                  placeholder="$0"
+                />
+              </div>
+              <input type="submit" value="Add" class="add-income" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Expenses -->
+        <div class="expense">
+          <h3 class="tab1">Expenses</h3>
+          <div id="expenses">
+            <ul class="list"></ul>
+            <div class="input">
+              <div>
+                <input
+                  type="text"
+                  id="expense-title-input"
+                  name="title"
+                  placeholder="Title"
+                />
+                <input
+                  type="number"
+                  id="expense-amount-input"
+                  name="amount"
+                  placeholder="$0"
+                />
+              </div>
+              <input type="submit" value="Add" class="add-expense" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Total -->
+        <div id="all">
+          <h3 class="tab3 active">All</h3>
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Files -->
+    <script src="app1.js"></script>
+  </body>
+</html>

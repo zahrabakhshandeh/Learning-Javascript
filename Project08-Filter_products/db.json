@@ -1,0 +1,77 @@
+{
+  "items":[
+      {
+        "id": 1,
+        "title": "Laptop 1",
+        "price": 200.6,
+        "image": "./images/1.png"
+      },
+      {
+        "id": 2,
+        "title": "Laptop 2",
+        "price": 190.99,
+        "image": "./images/2.png"
+      },
+      {
+        "id": 3,
+        "title": "Cellphone 1",
+        "price": 70.4,
+        "image": "./images/3.png"
+      },
+      {
+        "id": 4,
+        "title": "Headphone 1",
+        "price": 30.9,
+        "image": "./images/4.png"
+      },
+      {
+        "id": 5,
+        "title": "Cellphone 2",
+        "class":"shirt",
+        "price": 60.8,
+        "image": "./images/5.png"
+      },
+      {
+        "id": 6,
+        "title": "Headphone 2",
+        "price": 23.5,
+        "image": "./images/6.png"
+      },
+      {
+        "id": 7,
+        "title": "Laptop 3",
+        "price": 420.7,
+        "image": "./images/7.png"
+      },
+      {
+        "id": 8,
+        "title": "Cellphone 3",
+        "price": 90.0,
+        "image": "./images/8.png"
+      },
+      {
+        "id": 9,
+        "title": "Laptop 4",
+        "price": 124.0,
+        "image": "./images/9.png"
+      }
+      ,   {
+        "id": 10,
+        "title": "Headphone 3",
+        "price": 34.9,
+        "image": "./images/10.png"
+      }
+      ,   {
+        "id": 11,
+        "title": "Cellphone 4",
+        "price": 88.0,
+        "image": "./images/11.png"
+      }
+      ,   {
+        "id": 12,
+        "title": "Laptop 5",
+        "price": 180.99,
+        "image": "./images/12.png"
+      }
+    ]
+}

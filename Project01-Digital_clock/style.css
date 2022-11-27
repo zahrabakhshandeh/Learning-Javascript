@@ -1,0 +1,28 @@
+html, body{
+  display: grid;
+  background: black;
+  place-items: center;
+  height: 100%;
+}
+.root{
+  font-family: 'sans-serif';
+  text-shadow:0px 0px 1px #fff;
+  background: #1b1b1b;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  color:rgb(5, 245, 221) ;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  font-size: 25px;
+  
+  box-shadow: inset 0px 0px 15px rgb(166, 188, 199);
+}
+.date {
+  letter-spacing:3px;
+  font-size:14px;
+  font-family:arial,sans-serif;
+  color:#fff;
+}
